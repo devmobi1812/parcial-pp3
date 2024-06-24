@@ -1,0 +1,82 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    background-color: #0DC43A;
+    align-self: center;
+    padding: 1rem;
+    color: white;
+}
+
+.logo{
+    width: 5rem;
+    height: 5rem;
+
+}
+
+.barraNavegacion{
+    align-self: center;
+    margin-left: auto;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+}
+
+.navbar .nav-link{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem;
+}
+
+
+#banner{
+    height: 70%;
+    background-image: linear-gradient(rgba(5, 7, 12,0.75), rgba(5, 7, 12,0.75)), url("../img/banners/banner-principal.jpg");
+    background-size: cover;
+    color: white;
+    padding: 4rem;
+}
+
+#banner > h2{
+    font-size: 3rem;
+}
+
+#banner >p{
+    font-size: 1.5rem;
+}
+
+#anios{
+    padding: 1rem;
+}
+
+#anios > h3{
+    font-size: 2rem;
+}
+.anio, .anio > div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: solid black 0.15rem;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.anio > div{
+    width: 15rem;
+    height: 15rem;
+    margin: 1rem;
+    text-align: center;
+    
+    
+}
