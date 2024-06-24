@@ -6,7 +6,7 @@ body{
     padding: 0;
 }
 
-.header{
+header, footer{
     display: flex;
     background-color: #0DC43A;
     align-self: center;
@@ -17,12 +17,20 @@ body{
 .logo{
     width: 5rem;
     height: 5rem;
-
 }
 
-.barraNavegacion{
+header > nav, .redes{
     align-self: center;
     margin-left: auto;
+}
+
+.redes{
+    display: flex;
+    
+}
+.redes img{
+    height: 2.5rem;
+    margin: 0.25rem;
 }
 
 .navbar{
@@ -30,7 +38,7 @@ body{
     list-style: none;
 }
 
-.navbar .nav-link{
+.navbar .nav-link, footer > h4{
     font-size: 1.5rem;
     font-weight: bold;
     color: white;
@@ -56,7 +64,7 @@ body{
 }
 
 #anios{
-    padding: 1rem;
+    padding: 0 1rem 1rem 1rem;
 }
 
 #anios > h3{
@@ -79,4 +87,8 @@ body{
     text-align: center;
     
     
+}
+
+.invisible{
+    display:none;
 }
