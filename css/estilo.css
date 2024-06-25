@@ -137,5 +137,19 @@ header > nav, .redes{
     background-size: cover;
 }
 
+.arquitectura {
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/primero/arqui-pc.jpg");
+    background-size: cover;
+}
+
+.sis-organizaciones {
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/primero/syo.jpg");
+    background-size: cover;
+}
+
+.cs-tec-sociedad{
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/primero/ctys.jpg");
+    background-size: cover;
+}
 
 
