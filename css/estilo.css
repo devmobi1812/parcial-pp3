@@ -46,20 +46,31 @@ header > nav, .redes{
     margin: 0.5rem;
 }
 
-
 #banner{
-    height: 70%;
     background-image: linear-gradient(rgba(5, 7, 12,0.75), rgba(5, 7, 12,0.75)), url("../img/banners/banner-principal.jpg");
     background-size: cover;
+}
+#bannerP{
+    background-image: linear-gradient(rgba(5, 7, 12,0.75), rgba(5, 7, 12,0.75)), url("../img/banners/banner-perfil-programador.jpg");
+    background-size: cover;
+}
+#bannerA{
+    background-image: linear-gradient(rgba(5, 7, 12,0.75), rgba(5, 7, 12,0.75)), url("../img/banners/banner-perfil-analista.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+    
+#banner, #bannerP, #bannerA{
+    height: 70%;
     color: white;
     padding: 4rem;
 }
 
-#banner > h2{
+#banner > h2, #bannerP > h2, #bannerA > h2{
     font-size: 3rem;
 }
 
-#banner >p{
+#banner >p, #bannerP >p, #bannerA >p{
     font-size: 1.5rem;
 }
 
@@ -120,6 +131,10 @@ header > nav, .redes{
 }
 .asp-legales{
     background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/tercero/asp-legales.jpg");
+    background-size: cover;
+}
+.matematicas{
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/compartidas/matematicas.jpg");
     background-size: cover;
 }
 
