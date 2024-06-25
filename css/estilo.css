@@ -70,7 +70,7 @@ header > nav, .redes{
 #anios > h3, .programador > h3, .analista > h3, .complementarias >h3{
     font-size: 2rem;
 }
-.anio, .anio > div, .anio-uno > div, .anio-dos > div, .anio-tres > div{
+.anio, .anio > div, .anio-uno, .anio-uno > div, .anio-dos, .anio-dos > div, .anio-tres, .anio-tres > div{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -80,7 +80,7 @@ header > nav, .redes{
     padding: 1rem;
 }
 
-.anio > div{
+.anio > div, .anio-uno > div, .anio-dos > div, .anio-tres > div{
     width: 15rem;
     height: 15rem;
     margin: 1rem;
