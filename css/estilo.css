@@ -63,14 +63,14 @@ header > nav, .redes{
     font-size: 1.5rem;
 }
 
-#anios{
+#anios, .programador, .analista, .complementarias{
     padding: 0 1rem 1rem 1rem;
 }
 
-#anios > h3{
+#anios > h3, .programador > h3, .analista > h3, .complementarias >h3{
     font-size: 2rem;
 }
-.anio, .anio > div{
+.anio, .anio > div, .anio-uno > div, .anio-dos > div, .anio-tres > div{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -95,11 +95,31 @@ header > nav, .redes{
 }
 
 .algoritmos{
-    background-image: linear-gradient(rgba(5, 7, 12,0.75), rgba(5, 7, 12,0.75)), url("../img/materias/tercero/alg3.jpeg");
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/compartidas/alg.jpeg");
     background-size: cover;
 }
 .redes-comunic{
-    background-image: linear-gradient(rgba(5, 7, 12,0.75), rgba(5, 7, 12,0.75)), url("../img/materias/tercero/redes.jpg");
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/tercero/redes.jpg");
+    background-size: cover;
+}
+.sem-actualizacion{
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/tercero/sem-actu.jpg");
+    background-size: cover;
+}
+.ing-software{
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/compartidas/ing-soft.png");
+    background-size: cover;
+}
+.practicas-profesionalizantes{
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/compartidas/practicas.jpg");
+    background-size: cover;
+}
+.ingles{
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/compartidas/ingles.jpg");
+    background-size: cover;
+}
+.asp-legales{
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/tercero/asp-legales.jpg");
     background-size: cover;
 }
 
