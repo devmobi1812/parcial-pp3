@@ -1,0 +1,215 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    display: flex;
+    background-color: #0DC43A;
+    align-self: center;
+    padding: 1rem;
+    color: white;
+}
+
+.logo > a > img{
+    width: 8rem;
+}
+
+header > nav, .redes{
+    align-self: center;
+    margin-left: auto;
+    
+}
+
+.redes{
+    display: flex;
+    
+}
+.redes img{
+    height: 2.5rem;
+    margin: 0.25rem;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+}
+.navbar .nav-link, footer > h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem;
+}
+
+#banner{
+    background-image: linear-gradient(rgba(5, 7, 12,0.75), rgba(5, 7, 12,0.75)), url("../img/banners/banner-principal.jpg");
+    background-size: cover;
+}
+#bannerP{
+    background-image: linear-gradient(rgba(5, 7, 12,0.75), rgba(5, 7, 12,0.75)), url("../img/banners/banner-perfil-programador.jpg");
+    background-size: cover;
+}
+#bannerA{
+    background-image: linear-gradient(rgba(5, 7, 12,0.75), rgba(5, 7, 12,0.75)), url("../img/banners/banner-perfil-analista.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+    
+#banner, #bannerP, #bannerA{
+    height: 70%;
+    color: white;
+    padding: 4rem;
+}
+
+#banner > h2, #bannerP > h2, #bannerA > h2{
+    font-size: 3rem;
+}
+
+#banner >p, #bannerP >p, #bannerA >p{
+    font-size: 1.5rem;
+}
+ .programador, .analista, .complementarias{
+    padding: 0 1rem 1rem 1rem;
+}
+#anios{
+    padding: 0;
+}
+#anios > h3{
+    background-color: #0b9c2f;
+    font-size: 3rem;
+    margin: 0;
+    color: white;
+    padding: 2rem 2rem 2rem 3rem;
+}
+
+.programador > h3, .analista > h3, .complementarias >h3{
+    font-size: 2rem;
+}
+.anio, .anio > button, .anio-uno, .anio-uno > div, .anio-dos, .anio-dos > div, .anio-tres, .anio-tres > div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: solid  white 0.15rem;
+    border-radius: 10px;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.anio{
+    border-radius: 0;
+    border: solid #0b9c2f 0.15rem;
+}
+
+.anio > button, .anio-uno > div, .anio-dos > div, .anio-tres > div{
+    width: 15rem;
+    height: 15rem;
+    margin: 1rem;
+    text-align: center;
+    color: white;
+}
+
+
+
+.algoritmos{
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/compartidas/alg.jpeg");
+    background-size: cover;
+}
+.redes-comunic{
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/tercero/redes.jpg");
+    background-size: cover;
+}
+.sem-actualizacion{
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/tercero/sem-actu.jpg");
+    background-size: cover;
+}
+.ing-software{
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/compartidas/ing-soft.png");
+    background-size: cover;
+}
+.practicas-profesionalizantes{
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/compartidas/practicas.jpg");
+    background-size: cover;
+}
+.ingles{
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/compartidas/ingles.jpg");
+    background-size: cover;
+}
+.asp-legales{
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/tercero/asp-legales.jpg");
+    background-size: cover;
+}
+.matematicas{
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/compartidas/matematicas.jpg");
+    background-size: cover;
+}
+
+.arquitectura {
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/primero/arqui-pc.jpg");
+    background-size: cover;
+}
+
+.sis-organizaciones {
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/primero/syo.jpg");
+    background-size: cover;
+}
+
+.cs-tec-sociedad{
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/primero/ctys.jpg");
+    background-size: cover;
+}
+
+.sistop{
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/segundo/sistemas-operativos.jpg");
+    background-size: cover;
+}
+
+.basedatos{
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/segundo/base-de-datos.png");
+    background-size: cover;
+}
+.estadistica{
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/segundo/estadistica.jpeg");
+    background-size: cover;
+}
+
+.invisible{
+    display: none;
+}
+
+.ventanas-flotantes{
+    display: flex;
+    position: fixed;
+    z-index: 1; /* Asegura que la ventana esté por encima de otros elementos */
+    top:0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.405);
+}
+
+.contenido-ventana{
+    background-color: #fff;
+    margin: 15% auto; /* Centra el contenido de la ventana */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Puede ajustar el ancho según tus necesidades */
+    border-radius: 10px;
+}
+
+.cerrar{
+    margin-left: 75%;
+    padding: 1rem;
+    width: 25%;
+    background-color: #0DC43A;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
