@@ -80,7 +80,7 @@ header > nav, .redes{
 #anios > h3, .programador > h3, .analista > h3, .complementarias >h3{
     font-size: 2rem;
 }
-.anio, .anio > div, .anio-uno, .anio-uno > div, .anio-dos, .anio-dos > div, .anio-tres, .anio-tres > div{
+.anio, .anio > button, .anio-uno, .anio-uno > div, .anio-dos, .anio-dos > div, .anio-tres, .anio-tres > div{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -88,9 +88,10 @@ header > nav, .redes{
     border: solid black 0.15rem;
     border-radius: 10px;
     padding: 1rem;
+    cursor: pointer;
 }
 
-.anio > div, .anio-uno > div, .anio-dos > div, .anio-tres > div{
+.anio > button, .anio-uno > div, .anio-dos > div, .anio-tres > div{
     width: 15rem;
     height: 15rem;
     margin: 1rem;
@@ -165,5 +166,38 @@ header > nav, .redes{
 }
 
 .invisible{
-    display:none;
+    display: none;
+}
+
+.ventanas-flotantes{
+    display: flex;
+    position: fixed;
+    z-index: 1; /* Asegura que la ventana esté por encima de otros elementos */
+    top:0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.405);
+}
+
+.contenido-ventana{
+    background-color: #fff;
+    margin: 15% auto; /* Centra el contenido de la ventana */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Puede ajustar el ancho según tus necesidades */
+    border-radius: 10px;
+}
+
+.cerrar{
+    margin-left: 75%;
+    padding: 1rem;
+    width: 25%;
+    background-color: #0DC43A;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
 }
