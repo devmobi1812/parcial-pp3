@@ -152,4 +152,16 @@ header > nav, .redes{
     background-size: cover;
 }
 
+.sistop{
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/segundo/sistemas-operativos.jpg");
+    background-size: cover;
+}
 
+.basedatos{
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/segundo/base-de-datos.png");
+    background-size: cover;
+}
+.estadistica{
+    background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/segundo/estadistica.jpeg");
+    background-size: cover;
+}
