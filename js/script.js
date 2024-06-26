@@ -9,8 +9,12 @@ document.addEventListener('DOMContentLoaded', function(){
         mostrarDescripcion(nombreMateria);
     }))
 
-    document.querySelector(".cerrar").addEventListener("click", cerrarVentanas);
-
+    document.querySelectorAll(".cerrar").forEach(boton => boton.addEventListener("click", cerrarVentanas));
+    window.addEventListener("keydown", e => {
+        if(e.key == "Escape"){
+            cerrarVentanas();
+        }
+    })
     function mostrarDescripcion(nombreMateria) {
         let ventana = document.getElementById(nombreMateria);
         ventana.classList.remove("invisible");
@@ -19,9 +23,10 @@ document.addEventListener('DOMContentLoaded', function(){
 
     function cerrarVentanas() {
         let ventana = document.querySelector(".ventanas-flotantes");
-        ventana.classList.remove("ventanas-flotantes");
-        ventana.classList.add("invisible");
-        
+        if(ventana != null){
+            ventana.classList.remove("ventanas-flotantes");
+            ventana.classList.add("invisible");
+        }
     }
     
 })
