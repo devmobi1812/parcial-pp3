@@ -239,6 +239,7 @@ header > nav, .redes{
     border: 1px solid #888;
     width: 80%; /* Puede ajustar el ancho según tus necesidades */
     border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 .cerrar{
