@@ -78,13 +78,7 @@ header > nav, .redes{
 #anios{
     padding: 0;
 }
-#anios > h3{
-    background-color: #0b9c2f;
-    font-size: 3rem;
-    margin: 0;
-    color: white;
-    padding: 2rem 2rem 2rem 3rem;
-}
+
 
 .programador > h3, .analista > h3, .complementarias >h3{
     font-size: 2rem;
@@ -101,8 +95,7 @@ header > nav, .redes{
 }
 
 .anio{
-    border-radius: 0;
-    border: solid #0b9c2f 0.15rem;
+    border: none;
 }
 
 .anio > button, .anio-uno > div, .anio-dos > div, .anio-tres > div{

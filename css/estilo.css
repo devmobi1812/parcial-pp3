@@ -13,7 +13,9 @@ header, footer{
     padding: 1rem;
     color: white;
 }
-
+header{
+    position: sticky;
+}
 .logo > a > img{
     width: 8rem;
 }
@@ -78,13 +80,20 @@ header > nav, .redes{
 #banner >p, #bannerP >p, #bannerA >p, #banner-about >p{
     font-size: 1.5rem;
 }
-
-#anios, .programador, .analista, .complementarias{
+.programador, .analista, .complementarias{
     padding: 0 1rem 1rem 1rem;
 }
 
-#anios > h3, .programador > h3, .analista > h3, .complementarias >h3{
+.programador > h3, .analista > h3, .complementarias >h3{
     font-size: 2rem;
+}
+/*A revisar*/
+#anios > h3{
+    background-color: #0b9c2f;
+    font-size: 3rem;
+    margin: 0;
+    color: white;
+    padding: 2rem 2rem 2rem 3rem;
 }
 
 .anio, .anio > button, .anio-uno, .anio-uno > div, .anio-dos, .anio-dos > div, .anio-tres, .anio-tres > div{
@@ -99,6 +108,7 @@ header > nav, .redes{
 }
 .anio{
     cursor: auto;
+    border: none;
 }
 
 .anio > button, .anio-uno > div, .anio-dos > div, .anio-tres > div{
