@@ -58,18 +58,24 @@ header > nav, .redes{
     background-size: cover;
     background-position: center;
 }
+
+#banner-about{
+    background-image: linear-gradient(rgba(5, 7, 12,0.75), rgba(5, 7, 12,0.75)), url("../img/banners/banner-about.jpg");
+    background-size: cover;
+    background-position: center;
+}
     
-#banner, #bannerP, #bannerA{
+#banner, #bannerP, #bannerA, #banner-about{
     height: 70%;
     color: white;
     padding: 4rem;
 }
 
-#banner > h2, #bannerP > h2, #bannerA > h2{
+#banner > h2, #bannerP > h2, #bannerA > h2, #banner-about > h2{
     font-size: 3rem;
 }
 
-#banner >p, #bannerP >p, #bannerA >p{
+#banner >p, #bannerP >p, #bannerA >p, #banner-about >p{
     font-size: 1.5rem;
 }
 
@@ -80,6 +86,7 @@ header > nav, .redes{
 #anios > h3, .programador > h3, .analista > h3, .complementarias >h3{
     font-size: 2rem;
 }
+
 .anio, .anio > button, .anio-uno, .anio-uno > div, .anio-dos, .anio-dos > div, .anio-tres, .anio-tres > div{
     display: flex;
     flex-wrap: wrap;
@@ -89,6 +96,9 @@ header > nav, .redes{
     border-radius: 10px;
     padding: 1rem;
     cursor: pointer;
+}
+.anio{
+    cursor: auto;
 }
 
 .anio > button, .anio-uno > div, .anio-dos > div, .anio-tres > div{
@@ -101,7 +111,36 @@ header > nav, .redes{
     
 }
 
+.contenedor-centrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin-bottom: 1rem;
+}
 
+.contenedor-centrado > div{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.contenedor-centrado > div > h3{
+    font-size: 2rem;
+}
+
+.contenedor-centrado > div > h4{
+    font-size: 1.5rem;
+}
+
+.contenedor-centrado > div > p, li{
+    font-size: 1.2rem;
+}
+
+.parrafo-destacado{
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+    
 
 .algoritmos{
     background-image: linear-gradient(rgba(21, 28, 46, 0.75), rgba(21, 28, 46, 0.75)), url("../img/materias/compartidas/alg.jpeg");
