@@ -82,14 +82,11 @@ header > nav, .redes{
     font-size: 1.5rem;
 }
 .programador, .analista, .complementarias{
-    padding: 0 1rem 1rem 1rem;
+    padding: 0 0 1rem 0;
 }
 
-.programador > h3, .analista > h3, .complementarias >h3{
-    font-size: 2rem;
-}
 /*A revisar*/
-#anios > h3{
+#anios > h3, .analista > h3, .programador > h3, .complementarias >h3{
     background-color: #0b9c2f;
     font-size: 3rem;
     margin: 0;
@@ -97,7 +94,7 @@ header > nav, .redes{
     padding: 2rem 2rem 2rem 3rem;
 }
 
-.anio, .anio > button, .anio-uno, .anio-uno > div, .anio-dos, .anio-dos > div, .anio-tres, .anio-tres > div{
+.anio, .anio > button{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -112,7 +109,7 @@ header > nav, .redes{
     border: none;
 }
 
-.anio > button, .anio-uno > div, .anio-dos > div, .anio-tres > div{
+.anio > button{
     width: 15rem;
     height: 15rem;
     margin: 1rem;
@@ -127,12 +124,18 @@ header > nav, .redes{
     flex-direction: column;
     justify-content: right;
     margin-bottom: 1rem;
+    text-align: justify;
 }
 
 .contenedor-centrado > div{
+    height: 70%;
+    padding: 0.5rem 4rem 0.5rem 4rem;
+}
+
+/*.contenedor-centrado > div{
     width: 50%;
     margin-left: 25%;
-}
+}*/
 
 .contenedor-centrado > div > h3{
     font-size: 2rem;
@@ -147,6 +150,9 @@ header > nav, .redes{
 }
 
 .parrafo-destacado{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
     font-weight: bold;
     font-size: 2rem;
     text-align: center;
@@ -239,7 +245,6 @@ header > nav, .redes{
     border: 1px solid #888;
     width: 80%; /* Puede ajustar el ancho según tus necesidades */
     border-radius: 10px;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 .cerrar{
