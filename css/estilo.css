@@ -31,8 +31,9 @@ header > nav, .redes{
     display: flex;
     
 }
-.redes img{
-    height: 2.5rem;
+.redes i{
+    color: white;
+    font-size: 2.5rem;
     margin: 0.25rem;
 }
 
