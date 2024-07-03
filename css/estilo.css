@@ -92,7 +92,8 @@ header > nav, .redes{
     font-size: 3rem;
     margin: 0;
     color: white;
-    padding: 2rem 2rem 2rem 3rem;
+    text-align: center;
+    padding: 2rem;
 }
 
 .anio, .anio > button{
